@@ -7,9 +7,8 @@ import "../styles/main-screen/main-screen.css";
 const MainScreen = () => {
   return (
     <div className="main-screen">
-      <div className="container">
-        <Header />
-      </div>
+      <Header />
+      <div className="container"></div>
     </div>
   );
 };
