@@ -45,6 +45,13 @@ $p13px: clamp(6.5px,0.67704vw,26px)
 $p12px: clamp(6px,0.62496vw,24px)
 
 *
-    .header
+    .main-screen
         width: 100%
-        margin-top: $thirtyTwoMob
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+        .container
+            width: $containerMob
+            margin: auto
