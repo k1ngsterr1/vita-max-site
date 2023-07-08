@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* .competition-screen {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+* .competition-screen .container {
+  width: 90.0243309002%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+* .competition-screen .container .competition-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* .competition-screen .container .competition-screen .competition-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: clamp(32px, 14.95296vw, 128px);
+}
+* .competition-screen .container .competition-screen .competition-heading-container .competition-heading {
+  color: #017369;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(12px, 5.60736vw, 48px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+* .competition-screen .container .competition-screen .competition-heading-container .competition-p {
+  margin-top: clamp(8px, 3.73824vw, 32px);
+}
+* .competition-screen .container .competition-screen .competition-tabs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: clamp(16px, 7.47648vw, 64px);
+}
+* .competition-screen .container .competition-screen .competition-tabs .competition-tab {
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+  margin-top: clamp(24px, 11.21472vw, 96px);
+}
+* .competition-screen .container .competition-screen .competition-tabs .competition-tab .icon {
+  position: absolute;
+  top: clamp(-20px, -9.3456vw, -80px);
+  left: clamp(12.5px, 5.841vw, 50px);
+  z-index: 1000;
+}
+* .competition-screen .container .competition-screen .competition-tabs .competition-tab .competition-white {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 2px 8px 0px rgba(129, 189, 149, 0.25);
+}
+* .competition-screen .container .competition-screen .competition-tabs .competition-tab .competition-white .tab-text {
+  padding-top: clamp(16px, 7.47648vw, 64px);
+  padding-left: clamp(16px, 7.47648vw, 64px);
+  padding-bottom: clamp(8px, 3.73824vw, 32px);
+}/*# sourceMappingURL=competition-screen.css.map */

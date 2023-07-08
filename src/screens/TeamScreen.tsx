@@ -4,6 +4,9 @@ import "../styles/team-screen/team.css";
 import team from "../assets/team.svg";
 
 import Avatar1 from "../assets/image04.png";
+import Avatar2 from "../assets/image03.png";
+import Avatar3 from "../assets/image02.png";
+import Avatar4 from "../assets/image01.png";
 
 interface ArticlesProps {
   propValue: React.ReactNode;
@@ -47,7 +50,12 @@ const TeamScreen = () => {
           </p>
           <Articles
             propValue={
-              <p className="text">
+              <p
+                className="text"
+                style={{
+                  paddingLeft: "clamp(5px,2.3364vw,20px)",
+                }}
+              >
                 Команда ТОО «ВитаМакс Фарм» насчитывает более{" "}
                 <strong className="green">
                   25 высококлассных специалистов{" "}
@@ -60,7 +68,12 @@ const TeamScreen = () => {
           ></Articles>
           <Articles
             propValue={
-              <p className="text">
+              <p
+                className="text"
+                style={{
+                  paddingLeft: "clamp(5px,2.3364vw,20px)",
+                }}
+              >
                 Сейлз команда представлена сильнейшими КАМ-ами с опытом работы,
                 как в госпитальном так и в ритейл сегменте.
               </p>
@@ -68,7 +81,12 @@ const TeamScreen = () => {
           ></Articles>
           <Articles
             propValue={
-              <p className="text">
+              <p
+                className="text"
+                style={{
+                  paddingLeft: "clamp(5px,2.3364vw,20px)",
+                }}
+              >
                 Мы заинтересованы привлекать в наш коллектив целеустремленных
                 людей, с хорошим образованием, релевантным опытом, желающих
                 решать амбициозные задачи в сфере здравоохранения:{" "}
@@ -78,7 +96,12 @@ const TeamScreen = () => {
           ></Articles>
           <Articles
             propValue={
-              <p className="text">
+              <p
+                className="text"
+                style={{
+                  paddingLeft: "clamp(5px,2.3364vw,20px)",
+                }}
+              >
                 Менеджмент компании отличают профессионализм, ориентированность
                 на результат и приверженность самым строгим этическим стандартам
                 ведения бизнеса.
@@ -93,8 +116,25 @@ const TeamScreen = () => {
               propName="Стив Джобс"
               propDescription="Президент"
             ></MemberCard>
+            <MemberCard
+              propView={Avatar2}
+              propName="Марк Цукерберг"
+              propDescription="Президент"
+            ></MemberCard>
           </div>
-          <div className="team-lower"></div>
+          <div className="team-lower">
+            {" "}
+            <MemberCard
+              propView={Avatar3}
+              propName="Тим Кук"
+              propDescription="Президент"
+            ></MemberCard>
+            <MemberCard
+              propView={Avatar4}
+              propName="Сергей Брин"
+              propDescription="Президент"
+            ></MemberCard>
+          </div>
         </div>
       </div>
     </div>
