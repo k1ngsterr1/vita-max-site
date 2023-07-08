@@ -3,6 +3,7 @@ import "./styles/styles.css";
 import MainScreen from "./screens/MainScreen";
 import TeamScreen from "./screens/TeamScreen";
 import CompetitionScreen from "./screens/CompetitionScreen";
+import ConsultingScreen from "./screens/ConsultingScreen";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <MainScreen />
       <TeamScreen />
       <CompetitionScreen />
+      <ConsultingScreen />
     </div>
   );
 };
