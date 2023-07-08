@@ -26,6 +26,14 @@ const MainScreen = () => {
           <button className="contact-us-btn">Связаться с нами</button>
         </div>
       </div>
+      <div className="about-company">
+        <h1 className="about-heading">О компании</h1>
+        <p className="about-p">
+          Товарищество с ограниченной ответственностью{" "}
+          <span className="vitamax">«ВитаМакс Фарм»</span>{" "}
+          <strong>создано в 2008 году.</strong>
+        </p>
+      </div>
     </div>
   );
 };

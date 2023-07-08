@@ -11,29 +11,30 @@
   height: auto;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #EDEDED 100%);
 }
-* .main-screen .container {
+* .main-screen .main-content .container {
   width: 90.0243309002%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
 }
-* .main-screen .container .illustration {
+* .main-screen .main-content .container .illustration {
   width: clamp(175px, 81.774vw, 700px);
   height: clamp(161.142px, 75.29843376vw, 644.568px);
   margin-top: clamp(16px, 7.47648vw, 64px);
 }
-* .main-screen .container .heading-container {
+* .main-screen .main-content .container .heading-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: clamp(8px, 3.73824vw, 32px);
 }
-* .main-screen .container .heading-container .heading {
+* .main-screen .main-content .container .heading-container .heading {
   text-align: center;
   flex-direction: column;
 }
-* .main-screen .container .heading-container .black {
+* .main-screen .main-content .container .heading-container .black {
   color: #000;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -42,7 +43,7 @@
   font-weight: 600;
   line-height: 187.5%;
 }
-* .main-screen .container .main-paragraph {
+* .main-screen .main-content .container .main-paragraph {
   width: 100%;
   color: rgba(3, 39, 39, 0.8);
   text-align: center;
@@ -53,7 +54,7 @@
   line-height: normal;
   margin-top: clamp(5px, 2.3364vw, 20px);
 }
-* .main-screen .container .contact-us-btn {
+* .main-screen .main-content .container .contact-us-btn {
   width: clamp(75px, 35.046vw, 300px);
   height: clamp(20.5px, 9.57924vw, 82px);
   border: none;
@@ -68,4 +69,27 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+* .main-screen .about-company {
+  width: 77.3611111111%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: auto;
+  flex-shrink: 0;
+  background-color: #FFF;
+  margin-top: clamp(-22.5px, -10.5138vw, -90px);
+}
+* .main-screen .about-company .about-heading {
+  margin-top: clamp(9px, 4.20552vw, 36px);
+  margin-left: clamp(9px, 4.20552vw, 36px);
+}
+* .main-screen .about-company .about-p {
+  width: clamp(135.5px, 63.31644vw, 542px);
+  margin-top: clamp(9px, 4.20552vw, 36px);
+  margin-left: clamp(9px, 4.20552vw, 36px);
+}
+* .main-screen .about-company .about-p .vitamax {
+  color: #017369;
+  font-weight: 600;
 }/*# sourceMappingURL=main-screen.css.map */

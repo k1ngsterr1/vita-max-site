@@ -58,60 +58,84 @@ $p12px: clamp(6px,0.62496vw,24px)
             height: auto
             background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #EDEDED 100%)
 
-        .container
-            width: $containerMob
-            display: flex
-            flex-direction: column
-            align-items: center
-            margin: auto
-
-            .illustration
-                width: clamp(175px,81.774vw,700px)
-                height: clamp(161.142px,75.29843376vw,644.568px)
-                margin-top: $thirtyTwoMob
-
-            .heading-container
+            .container
+                width: $containerMob
                 display: flex
                 flex-direction: column
                 align-items: center
-                justify-content: center
+                margin: auto
 
-                .heading
-                    text-align: center
+                .illustration
+                    width: clamp(175px,81.774vw,700px)
+                    height: clamp(161.142px,75.29843376vw,644.568px)
+                    margin-top: $thirtyTwoMob
+
+                .heading-container
+                    display: flex
                     flex-direction: column
+                    align-items: center
+                    justify-content: center
+                    margin-top: $sixteenMob
 
-                .black
-                    color: #000
+                    .heading
+                        text-align: center
+                        flex-direction: column
+
+                    .black
+                        color: #000
+                        text-align: center
+                        font-family: 'Poppins', sans-serif
+                        font-size: $m18pxMob
+                        font-style: normal
+                        font-weight: 600
+                        line-height: 187.5%
+
+                .main-paragraph
+                    width: 100%
+                    color: rgba(3, 39, 39, 0.80)
+                    text-align: center
+                    font-size: $m14pxMob
+                    font-family: 'Poppins', sans-serif
+                    font-style: normal
+                    font-weight: 500
+                    line-height: normal
+                    margin-top: clamp(5px,2.3364vw,20px)
+
+                .contact-us-btn
+                    width: clamp(75px,35.046vw,300px)
+                    height: clamp(20.5px,9.579239999999999vw,82px)
+                    border: none
+                    border-radius: 4px
+                    background-color: $green
+                    color: #FFF
                     text-align: center
                     font-family: 'Poppins', sans-serif
-                    font-size: $m18pxMob
+                    font-size: $m13pxMob
+                    margin-bottom: clamp(20.5px,9.579239999999999vw,82px)
+                    margin-top: $sixteenMob
                     font-style: normal
+                    font-weight: 700
+                    line-height: normal
+
+        .about-company
+            width: $container
+            display: flex
+            flex-direction: column
+            align-items: start
+            height: auto
+            flex-shrink: 0
+            background-color: $white
+            margin-top: clamp(-22.5px,-10.5138vw,-90px)
+
+            .about-heading
+                margin-top: $m18pxMob
+                margin-left: $m18pxMob
+
+            .about-p
+                width: clamp(135.5px,63.31643999999999vw,542px)
+                margin-top: $m18pxMob
+                margin-left: $m18pxMob
+
+                .vitamax
+                    color: $green
                     font-weight: 600
-                    line-height: 187.5%
-
-            .main-paragraph
-                width: 100%
-                color: rgba(3, 39, 39, 0.80)
-                text-align: center
-                font-size: $m14pxMob
-                font-family: 'Poppins', sans-serif
-                font-style: normal
-                font-weight: 500
-                line-height: normal
-                margin-top: clamp(5px,2.3364vw,20px)
-
-            .contact-us-btn
-                width: clamp(75px,35.046vw,300px)
-                height: clamp(20.5px,9.579239999999999vw,82px)
-                border: none
-                border-radius: 4px
-                background-color: $green
-                color: #FFF
-                text-align: center
-                font-family: 'Poppins', sans-serif
-                font-size: $m13pxMob
-                margin-bottom: clamp(20.5px,9.579239999999999vw,82px)
-                margin-top: $sixteenMob
-                font-style: normal
-                font-weight: 700
-                line-height: normal

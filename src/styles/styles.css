@@ -27,12 +27,14 @@
 }
 * p {
   color: #032727;
-  text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: clamp(7px, 3.27096vw, 28px);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+* button, * a {
+  cursor: pointer;
 }
 * .small-button {
   width: clamp(75px, 35.046vw, 300px);
