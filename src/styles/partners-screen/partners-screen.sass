@@ -1,0 +1,64 @@
+
+// Margins PC
+
+$eight: clamp(4px,1.86912vw,16px)
+$sixteen: clamp(8px,0.83328vw,32px)
+$thirtyTwo: clamp(16px,1.66656vw,64px)
+$sixtyFour: clamp(32px,3.33312vw,128px)
+$oneTwoEight: clamp(64px,6.66624vw,256px)
+$twoFiveSix: clamp(128px,13.33248vw,512px)
+
+// Margins Mob
+
+$eightMob: clamp(4px,1.86912vw,16px)
+$sixteenMob: clamp(8px,3.73824vw,32px)
+$thirtyTwoMob: clamp(16px,7.47648vw,64px)
+$sixtyFourMob: clamp(32px,14.95296vw,128px)
+$oneTwoEightMob: clamp(64px,29.90592vw,256px)
+$twoFiveSixMob: clamp(128px,59.81184vw,512px)
+
+// Colors
+
+$white: #FFF
+$gray: #EDEDED
+$darkGreen: #032727
+$black: #000
+$green: #017369
+
+$containerMob: 90.02433090024331%
+$container: 77.36111111111111%
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+$m24pxMob: clamp(12px,5.60736vw,48px)
+$m18pxMob: clamp(9px,4.20552vw,36px)
+$m14pxMob: clamp(7px,3.2709599999999996vw,28px)
+$m13pxMob: clamp(6.5px,3.03732vw,26px)
+$m12pxMob: clamp(6px,2.80368vw,24px)
+
+$p24px: clamp(12px,1.24992vw,48px)
+$p18px: clamp(9px,0.93744vw,36px)
+$p14px: clamp(7px,0.72912vw,28px)
+$p13px: clamp(6.5px,0.67704vw,26px)
+$p12px: clamp(6px,0.62496vw,24px)
+
+*
+    .partners-screen
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        background-color: $gray
+        margin-top: $sixtyFourMob
+
+        .partners-section
+            width: $containerMob
+            display: flex
+            margin: auto
+
+            .partners-heading
+                font-size: $m24pxMob
+                margin-top:

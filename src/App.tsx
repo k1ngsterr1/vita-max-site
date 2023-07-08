@@ -4,6 +4,7 @@ import MainScreen from "./screens/MainScreen";
 import TeamScreen from "./screens/TeamScreen";
 import CompetitionScreen from "./screens/CompetitionScreen";
 import ConsultingScreen from "./screens/ConsultingScreen";
+import PartnersScreen from "./screens/PartnersScreen";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <TeamScreen />
       <CompetitionScreen />
       <ConsultingScreen />
+      <PartnersScreen />
     </div>
   );
 };
