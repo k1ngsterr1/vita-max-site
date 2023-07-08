@@ -41,7 +41,6 @@
   font-size: clamp(9px, 4.20552vw, 36px);
   font-style: normal;
   font-weight: 600;
-  line-height: 187.5%;
 }
 * .main-screen .main-content .container .main-paragraph {
   width: 100%;
@@ -77,6 +76,7 @@
   align-items: start;
   height: auto;
   flex-shrink: 0;
+  border-radius: 10px;
   background-color: #FFF;
   margin-top: clamp(-22.5px, -10.5138vw, -90px);
 }
@@ -92,4 +92,11 @@
 * .main-screen .about-company .about-p .vitamax {
   color: #017369;
   font-weight: 600;
+}
+* .main-screen .about-company .about-p-2, * .main-screen .about-company .about-p-3 {
+  margin-top: clamp(9px, 4.20552vw, 36px);
+  margin-left: clamp(9px, 4.20552vw, 36px);
+}
+* .main-screen .about-company .about-p-2 .green, * .main-screen .about-company .about-p-3 .green {
+  color: #017369;
 }/*# sourceMappingURL=main-screen.css.map */
