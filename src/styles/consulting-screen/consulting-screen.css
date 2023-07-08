@@ -22,6 +22,7 @@
 * .consulting-screen .container .consulting-section {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: start;
   margin: auto;
   margin-top: clamp(16px, 7.47648vw, 64px);
@@ -44,4 +45,27 @@
   text-align: left;
   font-weight: 700;
   line-height: normal;
+}
+* .consulting-screen .container .consulting-section .marks {
+  margin-top: clamp(16px, 7.47648vw, 64px);
+}
+* .consulting-screen .container .consulting-section .marks .mark-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+* .consulting-screen .container .consulting-section .marks .mark-container .mark {
+  width: clamp(7.5px, 3.5046vw, 30px);
+  height: clamp(7.5px, 3.5046vw, 30px);
+}
+* .consulting-screen .container .consulting-section .marks .mark-container .mark-text {
+  color: #22343D;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(7px, 3.27096vw, 28px);
+  margin-left: clamp(8px, 3.73824vw, 32px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190%;
 }/*# sourceMappingURL=consulting-screen.css.map */
