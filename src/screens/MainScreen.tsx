@@ -10,8 +10,12 @@ const MainScreen = () => {
     <div className="main-screen">
       <Header />
       <div className="main-content">
-        <div className="container">
-          <img className="illustration" src={illustration}></img>
+        <main className="container">
+          <img
+            className="illustration"
+            src={illustration}
+            alt="illustration"
+          ></img>
           <div className="heading-container">
             <h1 className="heading">«ВитаМакс Фарм» </h1>
             <span className="black">
@@ -24,7 +28,7 @@ const MainScreen = () => {
             и изделий медицинского назначения.
           </p>
           <button className="contact-us-btn">Связаться с нами</button>
-        </div>
+        </main>
       </div>
       <div className="about-company">
         <h1 className="about-heading">О компании</h1>

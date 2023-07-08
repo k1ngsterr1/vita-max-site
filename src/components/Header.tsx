@@ -86,7 +86,7 @@ const Header = () => {
   return (
     <div className="header">
       <header className="mobile-header">
-        <img className="logo" src={logo}></img>
+        <img className="logo" src={logo} alt="logo"></img>
         <Menu styles={styles} right>
           <a id="home" className="menu-item" href="/">
             Home
