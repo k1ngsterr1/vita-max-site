@@ -45,41 +45,36 @@ $p13px: clamp(6.5px,0.67704vw,26px)
 $p12px: clamp(6px,0.62496vw,24px)
 
 *
-    .partners-screen
+    .documents-screen
         width: 100%
         display: flex
         flex-direction: column
         align-items: center
         justify-content: center
-        background-color: $gray
-        margin-top: $sixtyFourMob
+        margin-top: $thirtyTwoMob
 
-        .partners-section
+        .documents-section
             width: $containerMob
             display: flex
             flex-direction: column
             margin: auto
 
-            .partners-heading
+            .documents-heading
+                color: $green
                 font-size: $m24pxMob
-                padding-top: 20px
-                padding-left: 20px
+                font-style: normal
+                font-weight: 700
+                line-height: normal
 
-            .logos
+            .documents
                 width: 100%
                 display: flex
-                flex-direction: column
+                align-items: center
+                justify-content: space-between
+                margin-top: clamp(10px,4.6728vw,40px)
+                margin-bottom: clamp(10px,4.6728vw,40px)
 
-                .logo-upper, .logo-lower
-                    width: clamp(155px,72.4284vw,620px)
-                    display: flex
-                    align-items: center
-                    justify-content: space-between
-                    margin: auto
-
-                .logo-upper
-                    margin-top: $thirtyTwoMob
-
-                .logo-lower
-                    margin-top: $thirtyTwoMob
-                    margin-bottom: $sixteenMob
+                .document
+                    width: clamp(58.5px,27.33588vw,234px)
+                    height: clamp(82.5px,38.550599999999996vw,330px)
+                    box-shadow: 0px 2px 8px 0px rgba(129, 189, 149, 0.25)

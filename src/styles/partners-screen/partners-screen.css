@@ -11,8 +11,30 @@
 * .partners-screen .partners-section {
   width: 90.0243309002%;
   display: flex;
+  flex-direction: column;
   margin: auto;
 }
 * .partners-screen .partners-section .partners-heading {
   font-size: clamp(12px, 5.60736vw, 48px);
+  padding-top: 20px;
+  padding-left: 20px;
+}
+* .partners-screen .partners-section .logos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+* .partners-screen .partners-section .logos .logo-upper, * .partners-screen .partners-section .logos .logo-lower {
+  width: clamp(155px, 72.4284vw, 620px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+* .partners-screen .partners-section .logos .logo-upper {
+  margin-top: clamp(16px, 7.47648vw, 64px);
+}
+* .partners-screen .partners-section .logos .logo-lower {
+  margin-top: clamp(16px, 7.47648vw, 64px);
+  margin-bottom: clamp(8px, 3.73824vw, 32px);
 }/*# sourceMappingURL=partners-screen.css.map */
