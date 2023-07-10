@@ -7,6 +7,8 @@ import ConsultingScreen from "./screens/ConsultingScreen";
 import PartnersScreen from "./screens/PartnersScreen";
 import DocumentsScreen from "./screens/DocumentsScreen";
 import PolicyScreen from "./screens/PolicyScreen";
+import ContactsScreen from "./screens/ContactsScreen";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
       <PartnersScreen />
       <DocumentsScreen />
       <PolicyScreen />
+      <ContactsScreen />
+      <Footer />
     </div>
   );
 };

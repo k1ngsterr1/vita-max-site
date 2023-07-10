@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../styles/contacts-screen/contacts-screen.css";
+
 const ContactsScreen = () => {
   return (
     <div className="contacts-screen">
@@ -16,7 +18,12 @@ const ContactsScreen = () => {
             всех событий и получайте новейшие обновления.
           </p>
           <div className="input-container">
-            <input className="email-input"></input>
+            <input
+              className="email-input"
+              placeholder="Введите ваш email"
+              type="email"
+            ></input>
+            <button className="send-button">Отправить</button>
           </div>
         </div>
       </section>
