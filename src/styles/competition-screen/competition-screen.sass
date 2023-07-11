@@ -112,3 +112,77 @@ $p12px: clamp(6px,0.62496vw,24px)
                                 padding-top: $thirtyTwoMob
                                 padding-left: $thirtyTwoMob
                                 padding-bottom: $sixteenMob
+
+        .web-container
+            display: none
+
+@media screen and  (min-width: 1200px)
+
+    *
+
+    .competition-screen
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+        .container
+            display: none
+
+        .web-container
+            width: $container
+            display: flex
+            flex-direction: column
+            align-items: center
+            margin: auto
+            margin-top: $oneTwoEight
+
+            .competition-heading-container
+                display: flex
+                flex-direction: column
+                align-items: start
+
+                .competition-heading
+                    color: $green
+                    font-family: 'Poppins', sans-serif
+                    font-size: $thirtyTwo
+                    font-style: normal
+                    font-weight: 700
+                    line-height: normal
+
+                .competition-p
+                    margin-top: $thirtyTwo
+
+            .competition-tabs
+                width: 100%
+                display: flex
+                flex-direction: column
+
+                .competition-tabs-upper
+                    width: 100%
+                    display: flex
+                    margin-top: $sixtyFour
+                    align-items: center
+                    justify-content: space-between
+
+                    .competition-tab
+                        width: clamp(175px,18.228vw,700px)
+                        height: clamp(69.5px,7.23912vw,278px)
+                        border-radius: 15px
+                        background: #FFF
+                        box-shadow: 0px 2px 8px 0px rgba(129, 189, 149, 0.25)
+
+                        .icon
+                            width: clamp(40px,4.1664vw,160px)
+                            height: clamp(40px,4.1664vw,160px)
+                            margin-top: clamp(-50px,-5.208vw,-200px)
+                            margin-left: $thirtyTwo
+
+                        .competition-white
+                            display: flex
+                            align-items: center
+                            justify-content: center
+
+                            .tab-text
+                                font-size: clamp(12px,1.24992vw,48px)

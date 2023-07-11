@@ -73,7 +73,34 @@ const CompetitionScreen = () => {
           </div>
         </section>
       </div>
-      <div className="web-container"></div>
+      <div className="web-container">
+        {" "}
+        <div className="competition-heading-container">
+          <h2 className="competition-heading">Наши компетенции</h2>
+          <p className="competition-p">
+            <strong> «ВитаМакс Фарм» </strong> - эффективно выполняет полный
+            спектр задач по продвижению и коммерциализации лекарственных
+            средств, изделий медицинского назначения, биологически-активных
+            добавок (БАДов) и лечебной косметики.
+          </p>
+        </div>
+        <div className="competition-tabs">
+          <div className="competition-tabs-upper">
+            <CompetitionTab
+              propView={cases}
+              propName="Работа с регуляторными органами"
+            ></CompetitionTab>
+            <CompetitionTab
+              propView={cart}
+              propName="Вывод на рынок новых продуктов"
+            ></CompetitionTab>
+            <CompetitionTab
+              propView={stats}
+              propName="Обеспечение целевых показателей продаж"
+            ></CompetitionTab>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
