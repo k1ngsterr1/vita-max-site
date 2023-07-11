@@ -18,7 +18,8 @@
 
 @media screen and (min-width: 1200px) {
   .header {
-    width: 100%;
+    width: 77.3611111111%;
+    display: flex !important;
     box-shadow: none !important;
     background-color: rgb(255, 255, 255);
   }
@@ -27,6 +28,7 @@
   }
   .header .web-header {
     width: 100%;
+    margin-top: clamp(16px, 1.66656vw, 64px);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,6 +38,39 @@
     height: clamp(38.5px, 4.01016vw, 154px);
   }
   .header .web-header .navigation-links {
-    width: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  .header .web-header .navigation-links .menu-item {
+    color: #1E55B3;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: clamp(8px, 0.83328vw, 32px);
+    font-style: normal;
+    font-weight: 400;
+  }
+  .header .web-header .navigation-links .menu-item:active {
+    color: #1E55B3;
+  }
+  .header .web-header .navigation-links .t {
+    margin-left: clamp(16px, 1.66656vw, 64px);
+  }
+  .header .web-header .phone-container {
+    display: flex;
+    align-items: center;
+  }
+  .header .web-header .phone-container .phone {
+    color: #1E55B3;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: clamp(8px, 0.83328vw, 32px);
+    font-style: normal;
+    font-weight: 400;
+  }
+  .header .web-header .phone-container .phone-icon {
+    color: #1E55B3;
+    margin-right: clamp(4px, 1.86912vw, 16px);
   }
 }/*# sourceMappingURL=heading.css.map */

@@ -28,6 +28,30 @@ const MainScreen = () => {
             и изделий медицинского назначения.
           </p>
           <button className="contact-us-btn">Связаться с нами</button>
+          <img
+            className="illustration-two"
+            src={illustration}
+            alt="illustration"
+          ></img>
+        </main>
+        <main className="container-web">
+          <section className="content-section">
+            <span className="vitamax">«ВитаМакс Фарм»</span>
+            <h1 className="main-heading">
+              Маркетингово-дистрибьюторская компания
+            </h1>
+            <p className="main-paragraph">
+              Обладает комплексом современных инструментов продвижения и
+              обширным опытом работы в продажах лекарственных препаратов, БАДов,
+              косметики и изделий медицинского назначения.
+            </p>
+            <button className="contact-us-btn">Связаться с нами</button>
+          </section>
+          <img
+            className="illustration-two"
+            src={illustration}
+            alt="illustration"
+          ></img>
         </main>
       </div>
       <div className="about-company">

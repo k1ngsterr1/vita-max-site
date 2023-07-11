@@ -6,6 +6,8 @@ import "../styles/header/heading.css";
 import logo from "../assets/logonobg.svg";
 import { Link } from "react-scroll";
 
+import { BsTelephoneFill } from "react-icons/bs";
+
 var styles = {
   bmBurgerButton: {
     position: "fixed",
@@ -106,22 +108,25 @@ const Header = () => {
       <header className="web-header">
         <img className="logo" src={logo} alt="logo"></img>
         <nav className="navigation-links">
-          <Link to="О компании" className="menu-item" href="/">
+          <Link to="О компании" className="menu-item 1" href="/">
             О компании
           </Link>
-          <Link to="Team" className="menu-item">
+          <Link to="Team" className="menu-item t">
             Команда
           </Link>
-          <Link to="Partnership" className="menu-item">
+          <Link to="Partnership" className="menu-item t">
             Партнеры
           </Link>
-          <Link to="License" className="menu-item">
+          <Link to="License" className="menu-item t">
             Лицензия
           </Link>
-          <div className="phone-container">
-            <a className="phone" href="tel:+8 (800) 000-00-00"></a>
-          </div>
         </nav>
+        <div className="phone-container">
+          <BsTelephoneFill className="phone-icon"></BsTelephoneFill>
+          <a className="phone" href="tel:+8 (800) 000-00-00">
+            8 (800) 000-00-00
+          </a>
+        </div>
       </header>
     </div>
   );

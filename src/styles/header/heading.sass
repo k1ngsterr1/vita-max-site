@@ -25,6 +25,9 @@ $darkGreen: #032727
 $black: #000
 $green: #017369
 
+$blue: #1E55B3
+$green: #168D42
+
 $containerMob: 90.02433090024331%
 $container: 77.36111111111111%
 
@@ -64,7 +67,8 @@ $p12px: clamp(6px,0.62496vw,24px)
 @media screen and  (min-width: 1200px)
 
     .header
-        width: 100%
+        width: $container
+        display: flex !important
         box-shadow: none !important
         background-color: rgba(255, 255, 255, 1)
 
@@ -73,6 +77,7 @@ $p12px: clamp(6px,0.62496vw,24px)
 
         .web-header
             width: 100%
+            margin-top: $thirtyTwo
             display: flex
             align-items: center
             justify-content: space-between
@@ -82,4 +87,37 @@ $p12px: clamp(6px,0.62496vw,24px)
                 height: clamp(38.5px,4.01016vw,154px)
 
             .navigation-links
-                width: 100%
+                width: auto
+                display: flex
+                align-items: center
+                margin: auto
+
+                .menu-item
+                    color: $blue
+                    font-family: 'Poppins', sans-serif
+                    text-decoration: none
+                    font-size: $sixteen
+                    font-style: normal
+                    font-weight: 400
+
+                    &:active
+                        color: $blue
+
+                .t
+                    margin-left: $thirtyTwo
+
+            .phone-container
+                display: flex
+                align-items: center
+
+                .phone
+                    color: $blue
+                    font-family: 'Poppins', sans-serif
+                    text-decoration: none
+                    font-size: $sixteen
+                    font-style: normal
+                    font-weight: 400
+
+                .phone-icon
+                    color: $blue
+                    margin-right: $eight
