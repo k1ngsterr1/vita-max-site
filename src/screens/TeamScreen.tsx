@@ -210,6 +210,28 @@ const TeamScreen = () => {
           </div>
           <img className="team" src={team} alt="team"></img>
         </div>
+        <div className="team-members">
+          <MemberCard
+            propView={Avatar1}
+            propName="Стив Джобс"
+            propDescription="Президент"
+          ></MemberCard>
+          <MemberCard
+            propView={Avatar2}
+            propName="Марк Цукерберг"
+            propDescription="Президент"
+          ></MemberCard>{" "}
+          <MemberCard
+            propView={Avatar3}
+            propName="Тим Кук"
+            propDescription="Президент"
+          ></MemberCard>
+          <MemberCard
+            propView={Avatar4}
+            propName="Сергей Брин"
+            propDescription="Президент"
+          ></MemberCard>
+        </div>
       </div>
     </div>
   );

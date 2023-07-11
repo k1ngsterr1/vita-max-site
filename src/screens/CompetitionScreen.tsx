@@ -73,6 +73,7 @@ const CompetitionScreen = () => {
           </div>
         </section>
       </div>
+      <div className="web-container"></div>
     </div>
   );
 };
