@@ -137,6 +137,80 @@ const TeamScreen = () => {
           </div>
         </div>
       </div>
+      <div className="web-container">
+        <h2 className="team-heading">Команда</h2>
+        <p className="team-p">
+          <strong>Наша главная ценность</strong> – это команда мотивиронных
+          профессионалов, ориентированная на результат, которая разделяет миссию
+          компани
+        </p>
+        <div className="tabs-container">
+          <div className="tabs">
+            <Articles
+              propValue={
+                <p
+                  className="text"
+                  style={{
+                    paddingLeft: "clamp(5px,2.3364vw,20px)",
+                  }}
+                >
+                  Команда ТОО «ВитаМакс Фарм» насчитывает более{" "}
+                  <strong className="green">
+                    25 высококлассных специалистов{" "}
+                  </strong>{" "}
+                  с большим опытом работы на фармацевтическом рынке и
+                  представлена специалистами из следующих областей: маркетинг,
+                  консалтинг, юриспруденция, продажи, регистрация ЛС и ИМН,
+                  продажи.
+                </p>
+              }
+            ></Articles>
+            <Articles
+              propValue={
+                <p
+                  className="text"
+                  style={{
+                    paddingLeft: "clamp(5px,2.3364vw,20px)",
+                  }}
+                >
+                  Сейлз команда представлена сильнейшими КАМ-ами с опытом
+                  работы, как в госпитальном так и в ритейл сегменте.
+                </p>
+              }
+            ></Articles>
+            <Articles
+              propValue={
+                <p
+                  className="text"
+                  style={{
+                    paddingLeft: "clamp(5px,2.3364vw,20px)",
+                  }}
+                >
+                  Мы заинтересованы привлекать в наш коллектив целеустремленных
+                  людей, с хорошим образованием, релевантным опытом, желающих
+                  решать амбициозные задачи в сфере здравоохранения:{" "}
+                  <strong className="green">hr@vtpharm.com</strong> 
+                </p>
+              }
+            ></Articles>
+            <Articles
+              propValue={
+                <p
+                  className="text"
+                  style={{
+                    paddingLeft: "clamp(5px,2.3364vw,20px)",
+                  }}
+                >
+                  Менеджмент компании отличают профессионализм,
+                  ориентированность на результат и приверженность самым строгим
+                  этическим стандартам ведения бизнеса.
+                </p>
+              }
+            ></Articles>
+          </div>
+          <img className="team" src={team} alt="team"></img>
+        </div>
+      </div>
     </div>
   );
 };

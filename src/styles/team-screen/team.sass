@@ -145,3 +145,69 @@ $p12px: clamp(6px,0.62496vw,24px)
                 .team-lower
 
                     margin-top: $sixteenMob
+
+@media screen and  (min-width: 1200px)
+
+    *
+
+    .team-screen
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+        .container
+            display: none
+
+        .web-container
+            width: $container
+            display: flex
+            flex-direction: column
+            margin-top: $oneTwoEight
+
+            .team-heading
+                color: $green
+                font-family: 'Poppins', sans-serif
+                font-size: $thirtyTwo
+                font-style: normal
+                font-weight: 700
+                line-height: normal
+
+            .team-p
+                width: 70%
+                margin-top: $thirtyTwo
+                font-size: $p18px
+
+            .tabs-container
+                width: 100%
+                margin: auto
+                display: flex
+                align-items: center
+                justify-content: space-between
+                // flex-direction: column
+
+                .tabs
+                    display: flex
+                    flex-direction: column
+
+                    .article
+                        width: 730px
+                        height: 139px
+                        border-radius: 15px
+                        background: #FFF
+                        box-shadow: 0px 2px 8px 0px rgba(129, 189, 149, 0.25)
+                        margin-top: $thirtyTwo
+
+                        .text
+                            font-size: $p18px
+                            margin: auto
+                            padding-top: $sixteen !important
+                            padding-bottom: $sixteen !important
+
+                        .green
+                            color: $blue
+
+                .team
+                    width: clamp(169px,17.60304vw,676px)
+                    height: clamp(250.5px,26.09208vw,1002px)

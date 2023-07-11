@@ -188,7 +188,7 @@
     background: #FFF;
     box-shadow: 0px 8px 25px 0px rgba(129, 189, 149, 0.15);
     background-color: #FFF;
-    margin-top: clamp(-50px, -5.208vw, -200px);
+    margin-top: clamp(-75px, -7.812vw, -300px);
   }
   .main-screen .about-company .about-heading {
     font-size: clamp(16px, 1.66656vw, 64px);
