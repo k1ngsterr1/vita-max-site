@@ -11,4 +11,31 @@
   align-items: center;
   margin-top: clamp(16px, 7.47648vw, 64px);
   margin-bottom: clamp(8px, 3.73824vw, 32px);
+}
+* .header .web-header {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    width: 100%;
+    box-shadow: none !important;
+    background-color: rgb(255, 255, 255);
+  }
+  .header .mobile-header {
+    display: none;
+  }
+  .header .web-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .web-header .logo {
+    width: clamp(110px, 11.4576vw, 440px);
+    height: clamp(38.5px, 4.01016vw, 154px);
+  }
+  .header .web-header .navigation-links {
+    width: 100%;
+  }
 }/*# sourceMappingURL=heading.css.map */

@@ -57,3 +57,29 @@ $p12px: clamp(6px,0.62496vw,24px)
             align-items: center
             margin-top: $thirtyTwoMob
             margin-bottom: $sixteenMob
+
+        .web-header
+            display: none
+
+@media screen and  (min-width: 1200px)
+
+    .header
+        width: 100%
+        box-shadow: none !important
+        background-color: rgba(255, 255, 255, 1)
+
+        .mobile-header
+            display: none
+
+        .web-header
+            width: 100%
+            display: flex
+            align-items: center
+            justify-content: space-between
+
+            .logo
+                width: clamp(110px,11.457600000000001vw,440px)
+                height: clamp(38.5px,4.01016vw,154px)
+
+            .navigation-links
+                width: 100%

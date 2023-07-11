@@ -3,7 +3,8 @@ import React from "react";
 import { slide as Menu } from "react-burger-menu";
 
 import "../styles/header/heading.css";
-import logo from "../assets/vitamax-logo.svg";
+import logo from "../assets/logonobg.svg";
+import { Link } from "react-scroll";
 
 var styles = {
   bmBurgerButton: {
@@ -88,16 +89,39 @@ const Header = () => {
       <header className="mobile-header">
         <img className="logo" src={logo} alt="logo"></img>
         <Menu styles={styles} right>
-          <a id="home" className="menu-item" href="/">
-            Home
-          </a>
-          <a id="about" className="menu-item" href="/about">
-            About
-          </a>
-          <a id="contact" className="menu-item" href="/contact">
-            Contact
-          </a>
+          <Link to="О компании" className="menu-item" href="/">
+            О компании
+          </Link>
+          <Link to="Team" className="menu-item">
+            Команда
+          </Link>
+          <Link to="Partnership" className="menu-item">
+            Партнеры
+          </Link>
+          <Link to="License" className="menu-item">
+            Лицензия
+          </Link>
         </Menu>
+      </header>
+      <header className="web-header">
+        <img className="logo" src={logo} alt="logo"></img>
+        <nav className="navigation-links">
+          <Link to="О компании" className="menu-item" href="/">
+            О компании
+          </Link>
+          <Link to="Team" className="menu-item">
+            Команда
+          </Link>
+          <Link to="Partnership" className="menu-item">
+            Партнеры
+          </Link>
+          <Link to="License" className="menu-item">
+            Лицензия
+          </Link>
+          <div className="phone-container">
+            <a className="phone" href="tel:+8 (800) 000-00-00"></a>
+          </div>
+        </nav>
       </header>
     </div>
   );
