@@ -84,4 +84,56 @@ $p12px: clamp(6px,0.62496vw,24px)
                     margin-top: $thirtyTwoMob
                     margin-bottom: $sixteenMob
 
+        .partners-section-web
+            display: none
+
 @media screen and  (min-width: 1200px)
+
+    *
+        .partners-screen
+            width: 100%
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            background-color: $gray
+            margin-top: $sixtyFourMob
+
+            .partners-section
+                display: none
+
+            .partners-section-web
+                width: $container
+                display: flex
+                flex-direction: column
+
+                .partners-heading
+                    margin-top: $thirtyTwo
+
+                .logos
+                    width: 100%
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    margin-bottom: $oneTwoEight
+                    margin-top: $sixtyFour
+
+                    .logo1
+                        width: clamp(67.5px,7.0308vw,270px)
+                        height: clamp(57.5px,5.9892vw,230px)
+
+                    .logo2
+                        width: clamp(82px,8.54112vw,328px)
+                        height: clamp(57.5px,5.9892vw,230px)
+
+                    .logo3
+                        width: clamp(113px,11.77008vw,452px)
+                        height: clamp(63px,6.56208vw,252px)
+
+                    .logo4
+                        width: clamp(88px,9.166080000000001vw,352px)
+                        height: clamp(55px,5.728800000000001vw,220px)
+
+                    .logo5
+                        width: clamp(83.5px,8.69736vw,334px)
+                        height: clamp(25px,2.604vw,100px)
