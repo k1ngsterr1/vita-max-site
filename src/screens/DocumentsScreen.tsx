@@ -17,6 +17,9 @@ const DocumentsScreen = () => {
           <img className="document three" src={document3} alt="document3"></img>
         </div>
       </section>
+      <section className="web-documents-section">
+        <h2 className=" documents-heading">Документы</h2>
+      </section>
     </div>
   );
 };
