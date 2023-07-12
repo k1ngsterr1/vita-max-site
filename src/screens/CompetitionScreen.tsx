@@ -99,6 +99,30 @@ const CompetitionScreen = () => {
               propName="Обеспечение целевых показателей продаж"
             ></CompetitionTab>
           </div>
+          <div className="competition-tabs-lower">
+            <CompetitionTab
+              propView={graph}
+              propName="Мониторинг рынка
+              и составление регулярных аналитических отчетов"
+            ></CompetitionTab>
+            <CompetitionTab
+              propView={arrows}
+              propName="Планирование и проведение маркетинговых кампаний, market access инструментов"
+            ></CompetitionTab>
+            <CompetitionTab
+              propView={charts}
+              propName="Разработка
+              и имплементация коммерческих стратегий"
+            ></CompetitionTab>
+          </div>
+          <div className="giant-tab">
+            {" "}
+            <CompetitionTab
+              propView={settings}
+              propName="Логистика лекарственных препаратов, медицинских изделий, косметики и БАДов
+              по Республике Казахстан и ближнему зарубежью"
+            ></CompetitionTab>
+          </div>
         </div>
       </div>
     </div>
