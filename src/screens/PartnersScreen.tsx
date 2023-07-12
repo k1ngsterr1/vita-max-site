@@ -23,6 +23,12 @@ const PartnersScreen = () => {
           </div>
         </div>
       </section>
+      <section className="partners-section-web">
+        <img className="logo1" src={logo1} alt="logo1"></img>
+        <img className="logo2" src={logo2} alt="logo2"></img>
+        <img className="logo3" src={logo3} alt="logo3"></img>
+        <img className="logo4" src={logo4} alt="logo4"></img>
+      </section>
     </div>
   );
 };

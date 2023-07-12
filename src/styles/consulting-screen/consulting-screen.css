@@ -68,4 +68,81 @@
   font-style: normal;
   font-weight: 400;
   line-height: 190%;
+}
+* .consulting-screen .web-container {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .consulting-screen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .consulting-screen .container {
+    display: none;
+  }
+  .consulting-screen .web-container {
+    width: 90.0243309002%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: clamp(32px, 14.95296vw, 128px);
+  }
+  .consulting-screen .web-container .consulting-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .consulting-screen .web-container .consulting-section .marks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .consulting-screen .web-container .consulting-section .marks-container .consulting-heading {
+    width: clamp(150px, 70.092vw, 600px);
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(12px, 5.60736vw, 48px);
+    font-style: normal;
+    text-align: left;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .consulting-screen .web-container .consulting-section .marks-container .green {
+    color: #1E55B3;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(12px, 5.60736vw, 48px);
+    font-style: normal;
+    text-align: left;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .consulting-screen .web-container .consulting-section .marks-container .marks {
+    display: flex;
+    flex-direction: column;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  .consulting-screen .web-container .consulting-section .marks-container .marks .mark-container {
+    display: flex;
+    align-items: center;
+    margin-top: clamp(8px, 0.83328vw, 32px);
+  }
+  .consulting-screen .web-container .consulting-section .marks-container .marks .mark-container .mark {
+    width: clamp(12.5px, 1.302vw, 50px);
+    height: clamp(12.5px, 1.302vw, 50px);
+  }
+  .consulting-screen .web-container .consulting-section .marks-container .marks .mark-container .mark-text {
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(9px, 0.93744vw, 36px);
+    margin-left: clamp(8px, 0.83328vw, 32px);
+  }
+  .consulting-screen .web-container .consulting-section .consulting-image {
+    width: clamp(320px, 33.3312vw, 1280px);
+    height: clamp(322.5px, 33.5916vw, 1290px);
+  }
 }/*# sourceMappingURL=consulting-screen.css.map */

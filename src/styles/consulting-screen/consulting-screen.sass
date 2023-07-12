@@ -117,3 +117,81 @@ $p12px: clamp(6px,0.62496vw,24px)
                             font-style: normal
                             font-weight: 400
                             line-height: 190%
+
+        .web-container
+            display: none
+
+@media screen and  (min-width: 1200px)
+
+    *
+    .consulting-screen
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+        .container
+            display: none
+
+        .web-container
+            width: $containerMob
+            display: flex
+            flex-direction: column
+            align-items: center
+            margin: auto
+            margin-top: $sixtyFourMob
+
+            .consulting-section
+                width: 100%
+                height: auto
+                display: flex
+                // align-items: center
+                justify-content: space-between
+
+                .marks-container
+                    display: flex
+                    flex-direction: column
+                    align-items: start
+
+                    .consulting-heading
+                        width: clamp(150px,70.092vw,600px)
+                        color: $black
+                        font-family: 'Poppins', sans-serif
+                        font-size: $m24pxMob
+                        font-style: normal
+                        text-align: left
+                        font-weight: 700
+                        line-height: normal
+
+                    .green
+                        color: $blue
+                        font-family: 'Poppins', sans-serif
+                        font-size: $m24pxMob
+                        font-style: normal
+                        text-align: left
+                        font-weight: 700
+                        line-height: normal
+
+                    .marks
+                        display: flex
+                        flex-direction: column
+                        margin-top: $thirtyTwo
+
+                        .mark-container
+                            display: flex
+                            align-items: center
+                            margin-top: $sixteen
+
+                            .mark
+                                width: clamp(12.5px,1.302vw,50px)
+                                height: clamp(12.5px,1.302vw,50px)
+
+                            .mark-text
+                                font-family: 'Poppins', sans-serif
+                                font-size: $p18px
+                                margin-left: $sixteen
+
+                .consulting-image
+                    width: clamp(320px,33.3312vw,1280px)
+                    height: clamp(322.5px,33.5916vw,1290px)
