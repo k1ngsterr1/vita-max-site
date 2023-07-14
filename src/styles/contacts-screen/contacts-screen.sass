@@ -150,8 +150,9 @@ $p12px: clamp(6px,0.62496vw,24px)
             width: $container
             display: flex !important
             flex-direction: column
+            margin-top: $sixtyFour
 
-            .contact-heading
+            .contacts-heading
                 font-size: $thirtyTwo !important
 
             .contacts-p
@@ -159,9 +160,40 @@ $p12px: clamp(6px,0.62496vw,24px)
 
             .contacts-form
                 width: 100%
+                background: linear-gradient(180deg, #1E55B3 0%, #002565 100%)
                 height: auto
                 display: flex
+                align-items: center
+                justify-content: space-between
+                border-radius: 15px
 
                 .text-container
                     display: flex
                     flex-direction: column
+                    margin-left: $sixtyFour
+                    margin-top: $thirtyTwo
+                    margin-bottom: $thirtyTwo
+
+                    .contact-us-heading
+                        font-family: 'Poppins', sans-serif
+                        font-size: clamp(14px,1.45824vw,56px)
+                        color: $white
+                        font-style: normal
+                        font-weight: 700
+                        line-height: normal
+
+                    .contact-p
+                        width: 505px
+                        color: $white
+                        font-family: 'Poppins', sans-serif
+                        font-style: normal
+                        font-weight: 400
+                        line-height: normal
+                        font-size: clamp(8.5px,0.88536vw,34px)
+
+                .input-container
+                    width: clamp(190px,19.7904vw,760px)
+                    height: clamp(24px,2.49984vw,96px)
+                    border-radius: 8px
+                    background-color: #fff
+                    margin-right: $sixtyFour
