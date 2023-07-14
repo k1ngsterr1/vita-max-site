@@ -101,6 +101,7 @@
     line-height: normal;
   }
   .competition-screen .web-container .competition-heading-container .competition-p {
+    font-size: clamp(9px, 0.93744vw, 36px);
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
   .competition-screen .web-container .competition-tabs {
@@ -151,7 +152,7 @@
   }
   .competition-screen .web-container .competition-tabs .giant-tab .competition-tab {
     width: 100%;
-    height: 220px;
+    height: clamp(68.5px, 7.13496vw, 274px);
     border-radius: 15px;
     background-color: #FFF;
     box-shadow: 0px 2px 8px 0px rgba(129, 189, 149, 0.25);
