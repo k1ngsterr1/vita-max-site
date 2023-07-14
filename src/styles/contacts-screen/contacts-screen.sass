@@ -135,3 +135,33 @@ $p12px: clamp(6px,0.62496vw,24px)
                         font-weight: 700
                         background-color: $green
                         margin-left: clamp(12.5px,5.840999999999999vw,50px)
+
+        .web-contacts-section
+            display: none
+
+@media screen and  (min-width: 1200px)
+
+    *
+
+        .contacts-section
+            display: none !important
+
+        .web-contacts-section
+            width: $container
+            display: flex !important
+            flex-direction: column
+
+            .contact-heading
+                font-size: $thirtyTwo !important
+
+            .contacts-p
+                font-size: $sixteen
+
+            .contacts-form
+                width: 100%
+                height: auto
+                display: flex
+
+                .text-container
+                    display: flex
+                    flex-direction: column

@@ -89,4 +89,33 @@
   font-weight: 700;
   background-color: #017369;
   margin-left: clamp(12.5px, 5.841vw, 50px);
+}
+* .contacts-screen .web-contacts-section {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  * .contacts-section {
+    display: none !important;
+  }
+  * .web-contacts-section {
+    width: 77.3611111111%;
+    display: flex !important;
+    flex-direction: column;
+  }
+  * .web-contacts-section .contact-heading {
+    font-size: clamp(16px, 1.66656vw, 64px) !important;
+  }
+  * .web-contacts-section .contacts-p {
+    font-size: clamp(8px, 0.83328vw, 32px);
+  }
+  * .web-contacts-section .contacts-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  * .web-contacts-section .contacts-form .text-container {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=contacts-screen.css.map */
