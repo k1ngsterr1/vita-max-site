@@ -73,9 +73,9 @@
     height: clamp(51px, 5.31216vw, 204px);
   }
   * .footer-web .footer-content .nav-links {
-    width: 100%;
+    width: auto;
     display: flex;
-    border: 2px solid red;
+    justify-content: space-between;
   }
   * .footer-web .footer-content .nav-links .link {
     color: #FFF;
@@ -83,5 +83,20 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
+  }
+  * .line {
+    width: 100%;
+    height: 1px;
+    background-color: #FFF;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  * .footer-paragraph {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: clamp(6.5px, 0.67704vw, 26px);
+    font-style: normal;
+    font-weight: 400;
+    margin-top: clamp(8px, 0.83328vw, 32px);
+    margin-bottom: clamp(8px, 0.83328vw, 32px);
   }
 }/*# sourceMappingURL=footer.css.map */

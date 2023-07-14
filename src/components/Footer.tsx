@@ -36,18 +36,22 @@ const Footer = () => {
             <Link className="link" to="about">
               О компании
             </Link>
-            <Link className="link main" to="team">
+            <Link className="link team" to="team">
               Команда
             </Link>
-            <Link className="link main" to="partnership">
+            <Link className="link partner" to="partnership">
               Партнеры
             </Link>
-            <Link className="link main" to="license">
+            <Link className="link license" to="license">
               Лицензия
             </Link>
           </nav>
         </div>
       </div>
+      <span className="line"></span>
+      <p className="footer-paragraph">
+        Copyright ® 2021 Company All rights Rcerved
+      </p>
     </footer>
   );
 };
