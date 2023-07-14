@@ -45,6 +45,7 @@ $p13px: clamp(6.5px,0.67704vw,26px)
 $p12px: clamp(6px,0.62496vw,24px)
 
 *
+
     .policy-screen
         width: 100%
         display: flex
@@ -52,6 +53,9 @@ $p12px: clamp(6px,0.62496vw,24px)
         align-items: center
         justify-content: center
         margin-top: $thirtyTwoMob
+
+        .web-policy-section
+            display: none
 
         .policy-section
             width: $containerMob
@@ -116,3 +120,71 @@ $p12px: clamp(6px,0.62496vw,24px)
                         font-size: $m12pxMob
                         margin-bottom: $sixteenMob
                         font-family: 'Poppins', sans-serif
+
+@media screen and  (min-width: 1200px)
+
+    *
+
+    .policy-screen
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        margin-top: $thirtyTwoMob
+
+        .policy-section
+            display: none
+
+        .web-policy-section
+            width: $container
+            display: flex
+            flex-direction: column
+
+            .policy-heading
+                font-size: $thirtyTwo !important
+
+            .tabs-container
+                display: flex
+                flex-direction: column
+
+                .article
+                    width: 100%
+                    height: auto
+                    box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15)
+                    border-radius: 10px
+                    margin-top: $thirtyTwo
+
+                    .article-heading
+                        font-family: 'Poppins', sans-serif
+                        font-size: clamp(10px,1.0416vw,40px)
+                        margin-top: $thirtyTwo
+                        margin-left: $thirtyTwo
+
+                    .article-description
+                        font-size: $sixteen
+                        font-family: 'Poppins', sans-serif
+                        margin-top: $sixteen
+                        margin-bottom: $thirtyTwo
+                        margin-left: $thirtyTwo
+
+                .article-g
+                    width: 100%
+                    height: auto
+                    background: #F5F5F5
+                    box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15)
+                    border-radius: 10px
+                    margin-top: $thirtyTwo
+
+                    .article-heading
+                        font-family: 'Poppins', sans-serif
+                        font-size: clamp(10px,1.0416vw,40px)
+                        margin-top: $thirtyTwo
+                        margin-left: $thirtyTwo
+
+                    .article-description
+                        font-size: $sixteen !important
+                        font-family: 'Poppins', sans-serif
+                        margin-top: $sixteen
+                        margin-bottom: $thirtyTwo
+                        margin-left: $thirtyTwo

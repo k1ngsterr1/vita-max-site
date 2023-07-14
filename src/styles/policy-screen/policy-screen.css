@@ -7,6 +7,9 @@
   justify-content: center;
   margin-top: clamp(16px, 7.47648vw, 64px);
 }
+* .policy-screen .web-policy-section {
+  display: none;
+}
 * .policy-screen .policy-section {
   width: 90.0243309002%;
   display: flex;
@@ -70,4 +73,71 @@
   font-size: clamp(6px, 2.80368vw, 24px);
   margin-bottom: clamp(8px, 3.73824vw, 32px);
   font-family: "Poppins", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .policy-screen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(16px, 7.47648vw, 64px);
+  }
+  .policy-screen .policy-section {
+    display: none;
+  }
+  .policy-screen .web-policy-section {
+    width: 77.3611111111%;
+    display: flex;
+    flex-direction: column;
+  }
+  .policy-screen .web-policy-section .policy-heading {
+    font-size: clamp(16px, 1.66656vw, 64px) !important;
+  }
+  .policy-screen .web-policy-section .tabs-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .policy-screen .web-policy-section .tabs-container .article {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  .policy-screen .web-policy-section .tabs-container .article .article-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(10px, 1.0416vw, 40px);
+    margin-top: clamp(16px, 1.66656vw, 64px);
+    margin-left: clamp(16px, 1.66656vw, 64px);
+  }
+  .policy-screen .web-policy-section .tabs-container .article .article-description {
+    font-size: clamp(8px, 0.83328vw, 32px);
+    font-family: "Poppins", sans-serif;
+    margin-top: clamp(8px, 0.83328vw, 32px);
+    margin-bottom: clamp(16px, 1.66656vw, 64px);
+    margin-left: clamp(16px, 1.66656vw, 64px);
+  }
+  .policy-screen .web-policy-section .tabs-container .article-g {
+    width: 100%;
+    height: auto;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  .policy-screen .web-policy-section .tabs-container .article-g .article-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(10px, 1.0416vw, 40px);
+    margin-top: clamp(16px, 1.66656vw, 64px);
+    margin-left: clamp(16px, 1.66656vw, 64px);
+  }
+  .policy-screen .web-policy-section .tabs-container .article-g .article-description {
+    font-size: clamp(8px, 0.83328vw, 32px) !important;
+    font-family: "Poppins", sans-serif;
+    margin-top: clamp(8px, 0.83328vw, 32px);
+    margin-bottom: clamp(16px, 1.66656vw, 64px);
+    margin-left: clamp(16px, 1.66656vw, 64px);
+  }
 }/*# sourceMappingURL=policy-screen.css.map */
