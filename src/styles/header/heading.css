@@ -12,8 +12,12 @@
   margin-top: clamp(16px, 7.47648vw, 64px);
   margin-bottom: clamp(8px, 3.73824vw, 32px);
 }
+* .header .mobile-header .logo {
+  width: clamp(45px, 21.0276vw, 180px);
+  height: clamp(20px, 9.3456vw, 80px);
+}
 * .header .web-header {
-  display: none;
+  display: none !important;
 }
 
 @media screen and (min-width: 1200px) {
@@ -29,7 +33,7 @@
   .header .web-header {
     width: 100%;
     margin-top: clamp(16px, 1.66656vw, 64px);
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: space-between;
   }

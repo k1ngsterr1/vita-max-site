@@ -61,6 +61,9 @@ $p12px: clamp(6px,0.62496vw,24px)
             height: auto
             background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #EDEDED 100%)
 
+            .container-web
+                display: none
+
             .container
                 width: $containerMob
                 display: flex
@@ -112,6 +115,9 @@ $p12px: clamp(6px,0.62496vw,24px)
                     background-color: $green
                     color: #FFF
                     text-align: center
+                    display: flex
+                    align-items: center
+                    justify-content: center
                     font-family: 'Poppins', sans-serif
                     font-size: $m13pxMob
                     margin-bottom: clamp(20.5px,9.579239999999999vw,82px)
@@ -196,7 +202,7 @@ $p12px: clamp(6px,0.62496vw,24px)
                         line-height: normal
 
                     .main-heading
-                        width: 900px
+                        width: clamp(450px,46.872vw,1800px)
                         text-align: left !important
                         color: $black
                         font-family: 'Poppins', sans-serif
@@ -207,7 +213,7 @@ $p12px: clamp(6px,0.62496vw,24px)
                         margin-top: $sixteen
 
                     .main-paragraph
-                        width: 500px
+                        width: clamp(350px,36.456vw,1400px)
                         font-family: 'Poppins', sans-serif
                         font-size: $p18px
                         font-style: normal
@@ -222,6 +228,9 @@ $p12px: clamp(6px,0.62496vw,24px)
                         text-align: center
                         font-family: 'Poppins', sans-serif
                         font-size: $sixteen
+                        display: flex
+                        align-items: center
+                        justify-content: center
                         border: none
                         border-radius: 5px
                         font-style: normal

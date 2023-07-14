@@ -53,6 +53,15 @@
   margin-top: clamp(8px, 3.73824vw, 32px);
   margin-bottom: clamp(8px, 3.73824vw, 32px);
 }
+* .footer .footer-web {
+  display: none;
+}
+* .footer .line-w {
+  display: none !important;
+}
+* .footer .footer-paragraph-w {
+  display: none !important;
+}
 
 @media screen and (min-width: 1200px) {
   * .footer-phone {
@@ -84,13 +93,13 @@
     font-style: normal;
     font-weight: 600;
   }
-  * .line {
+  * .line-w {
     width: 100%;
     height: 1px;
     background-color: #FFF;
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  * .footer-paragraph {
+  * .footer-paragraph-w {
     color: #FFF;
     font-family: Poppins;
     font-size: clamp(6.5px, 0.67704vw, 26px);

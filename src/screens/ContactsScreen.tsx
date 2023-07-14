@@ -4,7 +4,7 @@ import "../styles/contacts-screen/contacts-screen.css";
 
 const ContactsScreen = () => {
   return (
-    <div className="contacts-screen">
+    <div className="contacts-screen" id="contacts">
       <section className="contacts-section">
         <h2 className="contacts-heading">Контакты</h2>
         <p className="contacts-p">

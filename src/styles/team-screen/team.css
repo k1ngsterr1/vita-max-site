@@ -6,6 +6,9 @@
   align-items: center;
   justify-content: center;
 }
+* .team-screen .web-container {
+  display: none;
+}
 * .team-screen .container {
   display: flex;
   flex-direction: column;

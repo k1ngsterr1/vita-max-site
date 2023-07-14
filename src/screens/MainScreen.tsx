@@ -5,6 +5,8 @@ import Header from "../components/Header";
 import illustration from "../assets/amico.svg";
 import "../styles/main-screen/main-screen.css";
 
+import { Link } from "react-scroll";
+
 const MainScreen = () => {
   return (
     <div className="main-screen">
@@ -27,12 +29,14 @@ const MainScreen = () => {
             опытом работы в продажах лекарственных препаратов, БАДов, косметики
             и изделий медицинского назначения.
           </p>
-          <button className="contact-us-btn">Связаться с нами</button>
-          <img
+          <Link className="contact-us-btn" to="contacts">
+            Связаться с нами
+          </Link>
+          {/* <img
             className="illustration-two"
             src={illustration}
             alt="illustration"
-          ></img>
+          ></img> */}
         </main>
         <main className="container-web">
           <section className="content-section">
@@ -45,7 +49,9 @@ const MainScreen = () => {
               обширным опытом работы в продажах лекарственных препаратов, БАДов,
               косметики и изделий медицинского назначения.
             </p>
-            <button className="contact-us-btn">Связаться с нами</button>
+            <Link className="contact-us-btn" to="contacts" smooth={true}>
+              Связаться с нами
+            </Link>
           </section>
           <img
             className="illustration-two"

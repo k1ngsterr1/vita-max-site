@@ -48,8 +48,8 @@ const Footer = () => {
           </nav>
         </div>
       </div>
-      <span className="line"></span>
-      <p className="footer-paragraph">
+      <span className="line-w"></span>
+      <p className="footer-paragraph-w">
         Copyright ® 2021 Company All rights Rcerved
       </p>
     </footer>
