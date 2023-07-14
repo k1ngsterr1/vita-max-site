@@ -61,6 +61,7 @@
     flex-direction: column;
   }
   * .partners-screen .partners-section-web .partners-heading {
+    font-size: clamp(16px, 1.66656vw, 64px);
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
   * .partners-screen .partners-section-web .logos {

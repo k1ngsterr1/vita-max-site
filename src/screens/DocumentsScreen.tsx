@@ -19,6 +19,23 @@ const DocumentsScreen = () => {
       </section>
       <section className="web-documents-section">
         <h2 className=" documents-heading">Документы</h2>
+        <div className="documents">
+          <div className="document-one-c">
+            <img className="document one" src={document1} alt="document1"></img>
+            <span className="text">Лицензия на фармдеятельность </span>
+          </div>
+          <div className="document-two-c">
+            <img className="document two" src={document2} alt="document1"></img>
+            <span className="text">Лицензия на фармдеятельность </span>
+          </div>
+          <div className="document-three-c">
+            <img
+              className="document three"
+              src={document3}
+              alt="document1"
+            ></img>
+          </div>
+        </div>
       </section>
     </div>
   );

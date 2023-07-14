@@ -177,8 +177,8 @@
     box-shadow: 0px 2px 8px 0px rgba(129, 189, 149, 0.25);
   }
   .team-screen .web-container .team-members .team-member-card .avatar {
-    width: 134px;
-    border-radius: 100px;
+    width: clamp(67px, 6.97872vw, 268px);
+    border-radius: clamp(50px, 5.208vw, 200px);
   }
   .team-screen .web-container .team-members .team-member-card .name-heading {
     font-family: "Poppins", sans-serif;

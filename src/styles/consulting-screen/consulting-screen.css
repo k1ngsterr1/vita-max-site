@@ -98,6 +98,12 @@
     display: flex;
     justify-content: space-between;
   }
+  .consulting-screen .web-container .consulting-section .consulting-heading {
+    font-size: clamp(16px, 1.66656vw, 64px) !important;
+  }
+  .consulting-screen .web-container .consulting-section .consulting-heading .green {
+    font-size: clamp(16px, 1.66656vw, 64px) !important;
+  }
   .consulting-screen .web-container .consulting-section .marks-container {
     display: flex;
     flex-direction: column;
