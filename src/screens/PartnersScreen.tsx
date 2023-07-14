@@ -10,7 +10,7 @@ import "../styles/partners-screen/partners-screen.css";
 
 const PartnersScreen = () => {
   return (
-    <div className="partners-screen">
+    <div className="partners-screen" id="partners">
       <section className="partners-section">
         <h2 className="partners-heading">Партнеры</h2>
         <div className="logos">

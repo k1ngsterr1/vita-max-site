@@ -60,7 +60,7 @@ const MainScreen = () => {
           ></img>
         </main>
       </div>
-      <div className="about-company">
+      <div className="about-company" id="about">
         <h1 className="about-heading">О компании</h1>
         <p className="about-p">
           Товарищество с ограниченной ответственностью{" "}

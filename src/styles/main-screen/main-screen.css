@@ -186,6 +186,11 @@
     line-height: normal;
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
+  .main-screen .main-content .container-web .illustration-two {
+    width: clamp(375px, 39.06vw, 1500px);
+    height: clamp(275px, 28.644vw, 1100px);
+    padding-top: 30px;
+  }
   .main-screen .about-company {
     width: 77.3611111111%;
     display: flex;

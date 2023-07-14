@@ -38,7 +38,7 @@ const TeamScreen = () => {
   };
 
   return (
-    <div className="team-screen">
+    <div className="team-screen" id="team">
       <div className="container">
         <img className="team" src={team} alt="team"></img>
         <section className="team-section">

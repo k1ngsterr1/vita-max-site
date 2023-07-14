@@ -91,16 +91,16 @@ const Header = () => {
       <header className="mobile-header">
         <img className="logo" src={logo} alt="logo"></img>
         <Menu styles={styles} right>
-          <Link to="О компании" className="menu-item" href="/">
+          <Link to="about" className="menu-item">
             О компании
           </Link>
-          <Link to="Team" className="menu-item">
+          <Link to="team" className="menu-item">
             Команда
           </Link>
-          <Link to="Partnership" className="menu-item">
+          <Link to="partnership" className="menu-item">
             Партнеры
           </Link>
-          <Link to="License" className="menu-item">
+          <Link to="license" className="menu-item">
             Лицензия
           </Link>
         </Menu>
@@ -108,16 +108,16 @@ const Header = () => {
       <header className="web-header">
         <img className="logo" src={logo} alt="logo"></img>
         <nav className="navigation-links">
-          <Link to="О компании" className="menu-item 1" href="/">
+          <Link to="about" className="menu-item 1" smooth={true}>
             О компании
           </Link>
-          <Link to="Team" className="menu-item t">
+          <Link to="team" className="menu-item t" smooth={true}>
             Команда
           </Link>
-          <Link to="Partnership" className="menu-item t">
+          <Link to="partnership" className="menu-item t" smooth={true}>
             Партнеры
           </Link>
-          <Link to="License" className="menu-item t">
+          <Link to="license" className="menu-item t" smooth={true}>
             Лицензия
           </Link>
         </nav>
