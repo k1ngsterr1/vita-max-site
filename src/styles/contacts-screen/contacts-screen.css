@@ -118,6 +118,8 @@
     align-items: center;
     justify-content: space-between;
     border-radius: 15px;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+    margin-bottom: clamp(32px, 3.33312vw, 128px);
   }
   * .web-contacts-section .contacts-form .text-container {
     display: flex;
@@ -148,6 +150,37 @@
     height: clamp(24px, 2.49984vw, 96px);
     border-radius: 8px;
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-right: clamp(32px, 3.33312vw, 128px);
+  }
+  * .web-contacts-section .contacts-form .input-container .input {
+    width: 60%;
+    outline: none;
+    border: none;
+    color: #898989;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: clamp(3.5px, 0.36456vw, 14px);
+  }
+  * .web-contacts-section .contacts-form .input-container .send-btn {
+    width: clamp(61px, 6.35376vw, 244px);
+    height: clamp(18.5px, 1.92696vw, 74px);
+    background-color: #1E55B3;
+    border: none;
+    outline: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(8px, 0.83328vw, 32px);
+    margin-right: clamp(3.5px, 0.36456vw, 14px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 4px;
   }
 }/*# sourceMappingURL=contacts-screen.css.map */

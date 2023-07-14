@@ -57,37 +57,75 @@ $p12px: clamp(6px,0.62496vw,24px)
         flex-direction: column
         align-items: center
 
-        .logo-white
-            width: clamp(80px,37.3824vw,320px)
-            height: clamp(40px,18.6912vw,160px)
-            margin-top: $thirtyTwoMob
-
-        .nav-links
+        .footer-phone
             display: flex
             flex-direction: column
             align-items: center
-            text-align: center
-            margin-top: $sixtyFourMob
 
-            .link
+            .logo-white
+                width: clamp(80px,37.3824vw,320px)
+                height: clamp(40px,18.6912vw,160px)
+                margin-top: $thirtyTwoMob
+
+            .nav-links
+                display: flex
+                flex-direction: column
+                align-items: center
+                text-align: center
+                margin-top: $thirtyTwoMob
+
+                .link
+                    color: $white
+                    font-family: 'Poppins', sans-serif
+                    font-size: $sixteenMob
+                    font-style: normal
+                    font-weight: 600
+                    margin-top: $sixteenMob
+
+                    .main
+                        margin-top: $sixteenMob
+
+            .line
+                width: 100%
+                height: 1px
+                background-color: $white
+                margin-top: $thirtyTwoMob
+
+            .footer-paragraph
                 color: $white
                 font-family: 'Poppins', sans-serif
-                font-size: $sixteenMob
-                font-style: normal
-                font-weight: 600
-
-            .main
+                font-size: $m12pxMob
                 margin-top: $sixteenMob
+                margin-bottom: $sixteenMob
 
-        .line
-            width: 100%
-            height: 1px
-            background-color: $white
-            margin-top: $thirtyTwoMob
+@media screen and  (min-width: 1200px)
 
-        .footer-paragraph
-            color: $white
-            font-family: 'Poppins', sans-serif
-            font-size: $m12pxMob
-            margin-top: $sixteenMob
-            margin-bottom: $sixteenMob
+    *
+        .footer-phone
+            display: none !important
+
+        .footer-web
+            width: $container
+            display: flex
+            flex-direction: column
+
+            .footer-content
+                display: flex
+                align-items: center
+                margin-top: $thirtyTwo
+
+                .vitamax-logo
+                    width: clamp(90px,9.3744vw,360px)
+                    height: clamp(51px,5.31216vw,204px)
+
+                .nav-links
+                    width: 100%
+                    display: flex
+                    border: 2px solid red
+
+                    .link
+                        color: $white
+                        font-size: $sixteen
+                        font-family: 'Poppins', sans-serif
+                        font-style: normal
+                        font-weight: 600

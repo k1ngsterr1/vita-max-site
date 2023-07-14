@@ -12,38 +12,76 @@
   flex-direction: column;
   align-items: center;
 }
-* .footer .logo-white {
+* .footer .footer-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* .footer .footer-phone .logo-white {
   width: clamp(80px, 37.3824vw, 320px);
   height: clamp(40px, 18.6912vw, 160px);
   margin-top: clamp(16px, 7.47648vw, 64px);
 }
-* .footer .nav-links {
+* .footer .footer-phone .nav-links {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: clamp(32px, 14.95296vw, 128px);
+  margin-top: clamp(16px, 7.47648vw, 64px);
 }
-* .footer .nav-links .link {
+* .footer .footer-phone .nav-links .link {
   color: #FFF;
   font-family: "Poppins", sans-serif;
   font-size: clamp(8px, 3.73824vw, 32px);
   font-style: normal;
   font-weight: 600;
-}
-* .footer .nav-links .main {
   margin-top: clamp(8px, 3.73824vw, 32px);
 }
-* .footer .line {
+* .footer .footer-phone .nav-links .link .main {
+  margin-top: clamp(8px, 3.73824vw, 32px);
+}
+* .footer .footer-phone .line {
   width: 100%;
   height: 1px;
   background-color: #FFF;
   margin-top: clamp(16px, 7.47648vw, 64px);
 }
-* .footer .footer-paragraph {
+* .footer .footer-phone .footer-paragraph {
   color: #FFF;
   font-family: "Poppins", sans-serif;
   font-size: clamp(6px, 2.80368vw, 24px);
   margin-top: clamp(8px, 3.73824vw, 32px);
   margin-bottom: clamp(8px, 3.73824vw, 32px);
+}
+
+@media screen and (min-width: 1200px) {
+  * .footer-phone {
+    display: none !important;
+  }
+  * .footer-web {
+    width: 77.3611111111%;
+    display: flex;
+    flex-direction: column;
+  }
+  * .footer-web .footer-content {
+    display: flex;
+    align-items: center;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  * .footer-web .footer-content .vitamax-logo {
+    width: clamp(90px, 9.3744vw, 360px);
+    height: clamp(51px, 5.31216vw, 204px);
+  }
+  * .footer-web .footer-content .nav-links {
+    width: 100%;
+    display: flex;
+    border: 2px solid red;
+  }
+  * .footer-web .footer-content .nav-links .link {
+    color: #FFF;
+    font-size: clamp(8px, 0.83328vw, 32px);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+  }
 }/*# sourceMappingURL=footer.css.map */
