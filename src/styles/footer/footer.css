@@ -106,6 +106,10 @@
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
   * .footer-paragraph-w {
+    display: flex !important;
+    flex-direction: column;
+  }
+  * .footer-paragraph-w .footer-paragraph-w-p {
     color: #FFF;
     font-family: Poppins;
     display: flex !important;
@@ -114,5 +118,28 @@
     font-weight: 400;
     margin-top: clamp(8px, 0.83328vw, 32px);
     margin-bottom: clamp(8px, 0.83328vw, 32px);
+  }
+  * .footer-paragraph-w .spark-studio, * .footer-paragraph-w .text-w {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+    margin: auto;
+    font-size: clamp(8px, 0.83328vw, 32px);
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+  }
+  * .footer-paragraph-w .spark-studio {
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  * .footer-paragraph-w .spark-studio .spark {
+    width: clamp(35px, 3.6456vw, 140px);
+    height: clamp(35px, 3.6456vw, 140px);
+    margin-top: clamp(8px, 0.83328vw, 32px);
+    margin-left: clamp(10px, 1.0416vw, 40px);
+    cursor: pointer;
   }
 }/*# sourceMappingURL=footer.css.map */

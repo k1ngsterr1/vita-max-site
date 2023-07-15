@@ -5,6 +5,8 @@ import logoWhite from "../assets/logoWhite.svg";
 
 import { Link } from "react-scroll";
 
+import Triangle from "../assets/Triangle.svg";
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -49,9 +51,20 @@ const Footer = () => {
         </div>
       </div>
       <span className="line-w"></span>
-      <p className="footer-paragraph-w">
-        Copyright ® 2021 Company All rights Rcerved
-      </p>
+      <div className="footer-paragraph-w">
+        <p className="footer-paragraph-w-p">
+          Copyright ® 2021 Company All rights Rcerved
+        </p>
+        <div className="spark-studio">
+          <p className="text-w">Сделано в Spark Studio</p>
+          <img
+            className="spark"
+            src={Triangle}
+            alt="spark-studio"
+            onClick={() => window.open("https://sparkstudio.kz/", "_blank")}
+          ></img>
+        </div>
+      </div>
     </footer>
   );
 };
