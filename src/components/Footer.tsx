@@ -35,16 +35,16 @@ const Footer = () => {
         <div className="footer-content">
           <img className="vitamax-logo" src={logoWhite} alt="logo"></img>
           <nav className="nav-links">
-            <Link className="link" to="about">
+            <Link className="link" to="about" smooth={true}>
               О компании
             </Link>
-            <Link className="link team" to="team">
+            <Link className="link team" to="team" smooth={true}>
               Команда
             </Link>
-            <Link className="link partner" to="partnership">
+            <Link className="link partner" to="partnership" smooth={true}>
               Партнеры
             </Link>
-            <Link className="link license" to="license">
+            <Link className="link license" to="license" smooth={true}>
               Лицензия
             </Link>
           </nav>
@@ -56,13 +56,13 @@ const Footer = () => {
           Copyright ® 2021 Company All rights Rcerved
         </p>
         <div className="spark-studio">
-          <p className="text-w">Сделано в Spark Studio</p>
           <img
             className="spark"
             src={Triangle}
             alt="spark-studio"
             onClick={() => window.open("https://sparkstudio.kz/", "_blank")}
           ></img>
+          <p className="text-w">Сделано в </p>
         </div>
       </div>
     </footer>

@@ -134,6 +134,7 @@
   }
   * .footer-paragraph-w .spark-studio {
     margin-top: clamp(16px, 1.66656vw, 64px);
+    margin-bottom: clamp(8px, 0.83328vw, 32px);
   }
   * .footer-paragraph-w .spark-studio .spark {
     width: clamp(35px, 3.6456vw, 140px);

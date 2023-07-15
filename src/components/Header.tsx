@@ -26,18 +26,18 @@ var styles = {
     background: "#1f1f1f",
   },
   bmCrossButton: {
-    height: "clamp(18px,1.875vw,72px)",
-    width: "clamp(18px,1.875vw,72px)",
-    left: "clamp(150px,15.625vw,600px)",
+    height: "clamp(24px,11.21472vw,96px)",
+    width: "clamp(24px,11.21472vw,96px)",
+    left: "clamp(110px,51.4008vw,440px)",
     right: "clamp(32px,3.3333333333333335vw,128px)",
-    top: "clamp(10px,1.0416666666666667vw,40px)",
+    top: "clamp(16px,7.47648vw,64px)",
     bottom: "0",
     overflowX: "hidden",
   },
   bmCross: {
-    background: "#FCEE03",
+    background: "#032727",
     width: "3px",
-    height: "clamp(13.5px,1.40625vw,54px)",
+    height: "clamp(16px,7.47648vw,64px)",
   },
   bmMenuWrap: {
     position: "fixed",
@@ -45,44 +45,49 @@ var styles = {
     top: "0px",
   },
   bmMenu: {
-    background: "#022761",
+    background: "#FFFFFF",
     padding: "2.5em 1.5em 0",
     fontSize: "1.15em",
     overflowX: "hidden",
     overflowY: "hidden",
     boxShadow: "0px 0px 37px 15px rgba(0, 0, 0, 0.25)",
   },
+
   bmMorphShape: {
     fill: "#373a47",
   },
+
   bmItemList: {
     width: "100%",
     display: "flex",
     flexDirection: "column",
-    paddingRight: "clamp(136px,14.166666666666666vw,544px)",
-    paddingTop: "clamp(22.5px,2.34375vw,90px)",
-    fontFamily: "Raleway",
+    paddingRight: "0px",
+    paddingLeft: "clamp(50px,23.363999999999997vw,200px)",
+    paddingTop: "clamp(32px,14.95296vw,128px)",
+    fontFamily: "Poppins, sans-serif",
     fontStyle: "normal",
     fontWeight: "600",
-    fontSize: "clamp(9.25px,0.9635416666666666vw,37px)",
-    textAlign: "left",
-    color: "#FCEE03",
+    fontSize: "clamp(12px,5.60736vw,48px)",
+    textAlign: "right",
+    color: "#168D42",
     overflowX: "hidden",
   },
+
   bmItem: {
     display: "inline-block",
-    marginTop: "clamp(12px,1.25vw,48px)",
+    marginTop: "clamp(16px,7.47648vw,64px)",
   },
-  // bmOverlay: {
-  //   left: "0",
-  //   right: "0",
-  //   bottom: "0",
-  //   top: "0",
-  //   width: "100vw",
-  //   height: "clamp(5666.3px,590.2395833333334vw,22665.2px)",
-  //   position: "absolute",
-  //   background: "rgba(0, 0, 0, 0.3)",
-  // },
+
+  bmOverlay: {
+    left: "0",
+    right: "0",
+    bottom: "0",
+    top: "0",
+    width: "100vw",
+    height: "clamp(5666.3px,590.2395833333334vw,22665.2px)",
+    position: "absolute",
+    background: "rgba(0, 0, 0, 0.0)",
+  },
 };
 
 const Header = () => {
