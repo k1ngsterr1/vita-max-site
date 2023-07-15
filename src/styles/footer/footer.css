@@ -57,10 +57,10 @@
   display: none;
 }
 * .footer .line-w {
-  display: none !important;
+  display: none;
 }
 * .footer .footer-paragraph-w {
-  display: none !important;
+  display: none;
 }
 
 @media screen and (min-width: 1200px) {
@@ -69,7 +69,7 @@
   }
   * .footer-web {
     width: 77.3611111111%;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
   }
   * .footer-web .footer-content {
@@ -85,6 +85,7 @@
     width: auto;
     display: flex;
     justify-content: space-between;
+    margin-left: clamp(165px, 17.1864vw, 660px);
   }
   * .footer-web .footer-content .nav-links .link {
     color: #FFF;
@@ -92,8 +93,13 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
+    margin-left: clamp(16px, 1.66656vw, 64px);
+  }
+  * .footer-web .footer-content .nav-links .license {
+    margin-right: clamp(16px, 1.66656vw, 64px);
   }
   * .line-w {
+    display: flex !important;
     width: 100%;
     height: 1px;
     background-color: #FFF;
@@ -102,6 +108,7 @@
   * .footer-paragraph-w {
     color: #FFF;
     font-family: Poppins;
+    display: flex !important;
     font-size: clamp(6.5px, 0.67704vw, 26px);
     font-style: normal;
     font-weight: 400;

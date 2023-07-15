@@ -102,10 +102,10 @@ $p12px: clamp(6px,0.62496vw,24px)
             display: none
 
         .line-w
-            display: none !important
+            display: none
 
         .footer-paragraph-w
-            display: none !important
+            display: none
 
 @media screen and  (min-width: 1200px)
 
@@ -118,7 +118,7 @@ $p12px: clamp(6px,0.62496vw,24px)
 
         .footer-web
             width: $container
-            display: flex
+            display: flex !important
             flex-direction: column
 
             .footer-content
@@ -132,9 +132,9 @@ $p12px: clamp(6px,0.62496vw,24px)
 
                 .nav-links
                     width: auto
-                    // margin: auto
                     display: flex
                     justify-content: space-between
+                    margin-left: clamp(165px,17.1864vw,660px)
 
                     .link
                         color: $white
@@ -142,11 +142,16 @@ $p12px: clamp(6px,0.62496vw,24px)
                         font-family: 'Poppins', sans-serif
                         font-style: normal
                         font-weight: 600
+                        margin-left: $thirtyTwo
+
+                    .license
+                        margin-right: $thirtyTwo
 
                     // .team, .partner, .license
                     //     margin-left: $thirtyTwo
 
         .line-w
+            display: flex !important
             width: 100%
             height: 1px
             background-color: $white
@@ -155,6 +160,7 @@ $p12px: clamp(6px,0.62496vw,24px)
         .footer-paragraph-w
             color: #FFF
             font-family: Poppins
+            display: flex !important
             font-size: clamp(6.5px,0.67704vw,26px)
             font-style: normal
             font-weight: 400

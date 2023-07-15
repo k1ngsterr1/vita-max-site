@@ -97,7 +97,7 @@ const Header = () => {
           <Link to="team" className="menu-item">
             Команда
           </Link>
-          <Link to="partnership" className="menu-item">
+          <Link to="partners" className="menu-item">
             Партнеры
           </Link>
           <Link to="license" className="menu-item">
@@ -114,7 +114,7 @@ const Header = () => {
           <Link to="team" className="menu-item t" smooth={true}>
             Команда
           </Link>
-          <Link to="partnership" className="menu-item t" smooth={true}>
+          <Link to="partners" className="menu-item t" smooth={true}>
             Партнеры
           </Link>
           <Link to="license" className="menu-item t" smooth={true}>
