@@ -32,6 +32,7 @@
   width: clamp(58.5px, 27.33588vw, 234px);
   height: clamp(82.5px, 38.5506vw, 330px);
   box-shadow: 0px 2px 8px 0px rgba(129, 189, 149, 0.25);
+  cursor: pointer;
 }
 * .web-documents-section {
   display: none;
@@ -69,6 +70,7 @@
     width: clamp(175px, 18.228vw, 700px);
     height: clamp(247.434px, 25.77272544vw, 989.736px);
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
   }
   * .web-documents-section .documents .document-one-c .text, * .web-documents-section .documents .document-two-c .text, * .web-documents-section .documents .document-three-c .text {
     color: #038B73;

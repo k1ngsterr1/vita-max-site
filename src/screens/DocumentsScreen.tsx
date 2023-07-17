@@ -2,9 +2,9 @@ import React from "react";
 
 import "../styles/document-screen/document-screen.css";
 
-import document1 from "../assets/document01.png";
-import document2 from "../assets/document02.png";
-import document3 from "../assets/document03.png";
+import document1 from "../assets/license-1.png";
+import document2 from "../assets/license-2.png";
+import document3 from "../assets/license-3.png";
 
 import pdf from "../license.pdf";
 

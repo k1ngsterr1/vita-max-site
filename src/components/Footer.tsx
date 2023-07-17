@@ -11,7 +11,12 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-phone">
-        <img className="logo-white" src={logoWhite} alt="logo-white"></img>
+        <img
+          className="logo-white"
+          src={logoWhite}
+          alt="logo-white"
+          onClick={() => window.open("vita-max.kz")}
+        ></img>
         <nav className="nav-links">
           <Link className="link" to="about">
             О компании
@@ -33,7 +38,12 @@ const Footer = () => {
       </div>
       <div className="footer-web">
         <div className="footer-content">
-          <img className="vitamax-logo" src={logoWhite} alt="logo"></img>
+          <img
+            className="vitamax-logo"
+            src={logoWhite}
+            alt="logo"
+            onClick={() => window.open("vita-max.kz")}
+          ></img>
           <nav className="nav-links">
             <Link className="link" to="about" smooth={true}>
               О компании
