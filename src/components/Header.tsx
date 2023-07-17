@@ -128,8 +128,8 @@ const Header = () => {
         </nav>
         <div className="phone-container">
           <BsTelephoneFill className="phone-icon"></BsTelephoneFill>
-          <a className="phone" href="tel:+8 (800) 000-00-00">
-            8 (800) 000-00-00
+          <a className="phone" href="tel:+77771278999">
+            8 (777) 127-89-99
           </a>
         </div>
       </header>

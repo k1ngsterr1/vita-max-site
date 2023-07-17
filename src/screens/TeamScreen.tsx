@@ -3,7 +3,7 @@ import React from "react";
 import "../styles/team-screen/team.css";
 import team from "../assets/team.svg";
 
-import Avatar1 from "../assets/image04.png";
+import Avatar1 from "../assets/avatar.png";
 import Avatar2 from "../assets/image03.png";
 import Avatar3 from "../assets/image02.png";
 import Avatar4 from "../assets/image01.png";
@@ -90,7 +90,7 @@ const TeamScreen = () => {
                 Мы заинтересованы привлекать в наш коллектив целеустремленных
                 людей, с хорошим образованием, релевантным опытом, желающих
                 решать амбициозные задачи в сфере здравоохранения:{" "}
-                <strong className="green">hr@vtpharm.com</strong> 
+                <strong className="green">hr@vmppharm.com</strong> 
               </p>
             }
           ></Articles>
@@ -113,25 +113,25 @@ const TeamScreen = () => {
           <div className="team-upper">
             <MemberCard
               propView={Avatar1}
-              propName="Стив Джобс"
-              propDescription="Президент"
+              propName="Виктор Селиванов"
+              propDescription="Независимый консультант, Customer and business excellence"
             ></MemberCard>
             <MemberCard
               propView={Avatar2}
-              propName="Марк Цукерберг"
-              propDescription="Президент"
+              propName="Алишер Базаров"
+              propDescription="Генеральный директор"
             ></MemberCard>
           </div>
           <div className="team-lower">
             {" "}
             <MemberCard
               propView={Avatar3}
-              propName="Тим Кук"
+              propName="Мовсар Махматов"
               propDescription="Президент"
             ></MemberCard>
             <MemberCard
               propView={Avatar4}
-              propName="Сергей Брин"
+              propName="Данияр Баканбаев"
               propDescription="Президент"
             ></MemberCard>
           </div>
@@ -189,7 +189,7 @@ const TeamScreen = () => {
                   Мы заинтересованы привлекать в наш коллектив целеустремленных
                   людей, с хорошим образованием, релевантным опытом, желающих
                   решать амбициозные задачи в сфере здравоохранения:{" "}
-                  <strong className="green">hr@vtpharm.com</strong> 
+                  <strong className="green">hr@vmppharm.com</strong> 
                 </p>
               }
             ></Articles>
@@ -213,22 +213,22 @@ const TeamScreen = () => {
         <div className="team-members">
           <MemberCard
             propView={Avatar1}
-            propName="Стив Джобс"
-            propDescription="Президент"
+            propName="Виктор Селиванов"
+            propDescription="Независимый консультант, Customer and business excellence"
           ></MemberCard>
           <MemberCard
             propView={Avatar2}
-            propName="Марк Цукерберг"
-            propDescription="Президент"
+            propName="Алишер Базаров"
+            propDescription="Генеральный директор"
           ></MemberCard>{" "}
           <MemberCard
             propView={Avatar3}
-            propName="Тим Кук"
+            propName="Мовсар Махматов"
             propDescription="Президент"
           ></MemberCard>
           <MemberCard
             propView={Avatar4}
-            propName="Сергей Брин"
+            propName="Данияр Баканбаев"
             propDescription="Президент"
           ></MemberCard>
         </div>
