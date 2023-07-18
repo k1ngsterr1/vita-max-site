@@ -85,6 +85,7 @@
   * .partners-screen .partners-section-web .logos .logo3 {
     width: clamp(113px, 11.77008vw, 452px);
     height: clamp(63px, 6.56208vw, 252px);
+    cursor: pointer;
   }
   * .partners-screen .partners-section-web .logos .logo4 {
     width: clamp(88px, 9.16608vw, 352px);
