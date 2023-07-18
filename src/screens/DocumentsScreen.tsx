@@ -10,7 +10,7 @@ import pdf from "../license.pdf";
 
 const DocumentsScreen = () => {
   return (
-    <div className="documents-screen">
+    <div className="documents-screen" id="license">
       <section className="documents-section">
         <h2 className="documents-heading">Документы</h2>
         <div className="documents">
