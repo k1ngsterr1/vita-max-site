@@ -22,7 +22,18 @@ interface CardProps {
 }
 
 const TeamScreen = () => {
-  const [teammate, setTeammate] = useState<string | undefined>(undefined);
+  const [teammate, setTeammate] = useState<string | null>(null);
+
+  let teammateDescription;
+
+  if (teammate == "Victor") {
+    teammateDescription = (
+      <section className="team-member-description">
+        <h3 className="name-heading">Виктор Селиванов</h3>
+        <p className="team-member-paragraph">Описание</p>
+      </section>
+    );
+  }
 
   const Articles: React.FC<ArticlesProps> = (props) => {
     return <article className="article">{props.propValue}</article>;
@@ -30,7 +41,7 @@ const TeamScreen = () => {
 
   const MemberCard: React.FC<CardProps> = (props) => {
     return (
-      <article className="team-member-card">
+      <article className="team-member-card" onClick={props.onClick}>
         <figure>
           <img className="avatar" src={props.propView} alt="avatar"></img>
         </figure>
@@ -120,7 +131,7 @@ const TeamScreen = () => {
               propView={Avatar1}
               propName="Виктор Селиванов"
               propDescription="Независимый консультант, Customer and business excellence"
-              onClick={() => setTeammate("Vladimir")}
+              onClick={() => setTeammate("Viktor")}
             ></MemberCard>
             <MemberCard
               propView={Avatar2}
@@ -144,6 +155,7 @@ const TeamScreen = () => {
               onClick={() => setTeammate("Daniyar")}
             ></MemberCard>
           </div>
+          {teammateDescription}
         </div>
       </div>
       <div className="web-container">
@@ -224,7 +236,7 @@ const TeamScreen = () => {
             propView={Avatar1}
             propName="Виктор Селиванов"
             propDescription="Независимый консультант, Customer and business excellence"
-            onClick={() => setTeammate("Vladimir")}
+            onClick={() => setTeammate("Viktor")}
           ></MemberCard>
           <MemberCard
             propView={Avatar2}
@@ -245,9 +257,7 @@ const TeamScreen = () => {
             onClick={() => setTeammate("Daniyar")}
           ></MemberCard>
         </div>
-        <section className="team-member-description">
-          {/* <h3 className=""></h3> */}
-        </section>
+        {teammateDescription}
       </div>
     </div>
   );
