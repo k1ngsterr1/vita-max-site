@@ -71,6 +71,7 @@
   height: clamp(97.5px, 45.5598vw, 390px);
   border-radius: 15px;
   display: flex;
+  cursor: pointer;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -175,6 +176,7 @@
     width: clamp(127.5px, 13.2804vw, 510px);
     height: clamp(150px, 15.624vw, 600px);
     display: flex;
+    cursor: pointer;
     flex-direction: column;
     align-items: center;
     justify-content: center;

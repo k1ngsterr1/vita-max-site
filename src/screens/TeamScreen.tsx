@@ -8,6 +8,8 @@ import Avatar2 from "../assets/image03.png";
 import Avatar3 from "../assets/image02.png";
 import Avatar4 from "../assets/image01.png";
 
+import { useState } from "react";
+
 interface ArticlesProps {
   propValue: React.ReactNode;
 }
@@ -16,9 +18,12 @@ interface CardProps {
   propName: string;
   propView: string;
   propDescription: string;
+  onClick?: () => void;
 }
 
 const TeamScreen = () => {
+  const [teammate, setTeammate] = useState<string | undefined>(undefined);
+
   const Articles: React.FC<ArticlesProps> = (props) => {
     return <article className="article">{props.propValue}</article>;
   };
@@ -115,11 +120,13 @@ const TeamScreen = () => {
               propView={Avatar1}
               propName="Виктор Селиванов"
               propDescription="Независимый консультант, Customer and business excellence"
+              onClick={() => setTeammate("Vladimir")}
             ></MemberCard>
             <MemberCard
               propView={Avatar2}
               propName="Алишер Базаров"
               propDescription="Генеральный директор"
+              onClick={() => setTeammate("Alisher")}
             ></MemberCard>
           </div>
           <div className="team-lower">
@@ -128,11 +135,13 @@ const TeamScreen = () => {
               propView={Avatar3}
               propName="Мовсар Махматов"
               propDescription="Президент"
+              onClick={() => setTeammate("Movsar")}
             ></MemberCard>
             <MemberCard
               propView={Avatar4}
               propName="Данияр Баканбаев"
               propDescription="Президент"
+              onClick={() => setTeammate("Daniyar")}
             ></MemberCard>
           </div>
         </div>
@@ -215,23 +224,30 @@ const TeamScreen = () => {
             propView={Avatar1}
             propName="Виктор Селиванов"
             propDescription="Независимый консультант, Customer and business excellence"
+            onClick={() => setTeammate("Vladimir")}
           ></MemberCard>
           <MemberCard
             propView={Avatar2}
             propName="Алишер Базаров"
             propDescription="Генеральный директор"
+            onClick={() => setTeammate("Alisher")}
           ></MemberCard>{" "}
           <MemberCard
             propView={Avatar3}
             propName="Мовсар Махматов"
             propDescription="Президент"
+            onClick={() => setTeammate("Movsar")}
           ></MemberCard>
           <MemberCard
             propView={Avatar4}
             propName="Данияр Баканбаев"
             propDescription="Президент"
+            onClick={() => setTeammate("Daniyar")}
           ></MemberCard>
         </div>
+        <section className="team-member-description">
+          {/* <h3 className=""></h3> */}
+        </section>
       </div>
     </div>
   );
