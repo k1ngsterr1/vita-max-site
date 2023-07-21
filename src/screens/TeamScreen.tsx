@@ -35,6 +35,33 @@ const TeamScreen = () => {
     );
   }
 
+  if (teammate == "Movsar") {
+    teammateDescription = (
+      <section className="team-member-description">
+        <h3 className="name-heading">Мовсар Махматов</h3>
+        <p className="team-member-paragraph">Описание</p>
+      </section>
+    );
+  }
+
+  if (teammate == "Daniyar") {
+    teammateDescription = (
+      <section className="team-member-description">
+        <h3 className="name-heading">Данияр Баканбаев</h3>
+        <p className="team-member-paragraph">Описание</p>
+      </section>
+    );
+  }
+
+  if (teammate == "Alisher") {
+    teammateDescription = (
+      <section className="team-member-description">
+        <h3 className="name-heading">Алишер Базаров</h3>
+        <p className="team-member-paragraph">Описание</p>
+      </section>
+    );
+  }
+
   const Articles: React.FC<ArticlesProps> = (props) => {
     return <article className="article">{props.propValue}</article>;
   };
@@ -131,7 +158,7 @@ const TeamScreen = () => {
               propView={Avatar1}
               propName="Виктор Селиванов"
               propDescription="Независимый консультант, Customer and business excellence"
-              onClick={() => setTeammate("Viktor")}
+              onClick={() => setTeammate("Victor")}
             ></MemberCard>
             <MemberCard
               propView={Avatar2}
@@ -236,7 +263,7 @@ const TeamScreen = () => {
             propView={Avatar1}
             propName="Виктор Селиванов"
             propDescription="Независимый консультант, Customer and business excellence"
-            onClick={() => setTeammate("Viktor")}
+            onClick={() => setTeammate("Victor")}
           ></MemberCard>
           <MemberCard
             propView={Avatar2}
