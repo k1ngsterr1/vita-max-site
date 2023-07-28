@@ -5,7 +5,7 @@ import team from "../assets/team.svg";
 
 import Avatar1 from "../assets/avatar.png";
 import Avatar2 from "../assets/image03.png";
-import Avatar3 from "../assets/image02.png";
+import Avatar3 from "../assets/Movsar.png";
 import Avatar4 from "../assets/image01.png";
 
 import { useState } from "react";
@@ -30,7 +30,13 @@ const TeamScreen = () => {
     teammateDescription = (
       <section className="team-member-description">
         <h3 className="name-heading">Виктор Селиванов</h3>
-        <p className="team-member-paragraph">Описание</p>
+        <p className="team-member-paragraph">
+          {" "}
+          Старшая должность в управлении проектами в Москве. 3,5+ года –
+          командировка в Алматы, Казахстан, для выполнения руководящей должности
+          с широким охватом функций Business Excellence, SFE, Strategy и
+          Portfolio в регионе СНГ.
+        </p>
       </section>
     );
   }
@@ -39,7 +45,12 @@ const TeamScreen = () => {
     teammateDescription = (
       <section className="team-member-description">
         <h3 className="name-heading">Мовсар Махматов</h3>
-        <p className="team-member-paragraph">Описание</p>
+        <p className="team-member-paragraph">
+          В Pfizer я руководил организацией в качестве регионального менеджера и
+          главы глобального инновационного фармрынка для рынков Казахстана,
+          Кыргызстана, Монголии, Туркменистана, Узбекистана, Армении, Грузии и
+          Азербайджана.
+        </p>
       </section>
     );
   }
@@ -274,7 +285,7 @@ const TeamScreen = () => {
           <MemberCard
             propView={Avatar3}
             propName="Мовсар Махматов"
-            propDescription="Президент"
+            propDescription="Независимый директор, Government Relations"
             onClick={() => setTeammate("Movsar")}
           ></MemberCard>
           <MemberCard

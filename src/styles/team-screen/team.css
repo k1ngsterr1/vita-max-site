@@ -210,4 +210,20 @@
     margin: 0 auto;
     text-align: center;
   }
+  .team-screen .web-container .team-member-description {
+    margin-top: clamp(32px, 3.33312vw, 128px);
+  }
+  .team-screen .web-container .team-member-description .name-heading {
+    color: #168D42;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(12px, 1.24992vw, 48px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .team-screen .web-container .team-member-description .team-member-paragraph {
+    width: 70%;
+    margin-top: clamp(8px, 0.83328vw, 32px);
+    font-size: clamp(9px, 0.93744vw, 36px);
+  }
 }/*# sourceMappingURL=team.css.map */
