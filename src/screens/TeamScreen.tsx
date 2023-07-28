@@ -183,7 +183,7 @@ const TeamScreen = () => {
             <MemberCard
               propView={Avatar3}
               propName="Мовсар Махматов"
-              propDescription="Президент"
+              propDescription="Независимый директор, Government Relations"
               onClick={() => setTeammate("Movsar")}
             ></MemberCard>
             <MemberCard

@@ -99,6 +99,20 @@
   font-weight: 500;
   line-height: normal;
 }
+* .team-screen .container .team-members .team-member-description {
+  margin-top: clamp(16px, 7.47648vw, 64px);
+}
+* .team-screen .container .team-members .team-member-description .name-heading {
+  color: #168D42;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(12px, 5.60736vw, 48px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+* .team-screen .container .team-members .team-member-description .team-member-paragraph {
+  margin-top: clamp(8px, 3.73824vw, 32px);
+}
 * .team-screen .container .team-members .team-lower {
   margin-top: clamp(8px, 3.73824vw, 32px);
 }
